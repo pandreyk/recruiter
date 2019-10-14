@@ -1,0 +1,65 @@
+.containerCard{
+  background-color: #fcfefe;
+  display: flex;
+  margin-bottom: 1.5%;
+  box-shadow: 0 0 7px rgba(0,0,0,0.5);
+  padding: 2%;
+  border-radius: 4px;
+  min-width: 320px;
+}
+
+.containerCard p{
+  padding: 0;
+  margin: 0;
+}
+
+.icon{
+  /* background-color: magenta; */
+  padding: 10px;
+  border-radius: 50%;
+  border: #aaa 0px solid;
+  box-shadow: 0 0 2px rgba(0,0,0,0.5);
+  margin-left: 1%;
+  margin-right: 2%;
+  align-self: flex-start;
+}
+
+.name {
+  /* background-color: blueviolet; */
+  flex: 4;
+  padding-left: 1%;  
+}
+
+.info{
+  /* background-color: salmon; */
+  display: flex;
+  flex: 5;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.vacancy{
+  color: #CA5F57;
+}
+
+.tags{
+  color: midnightblue;
+  text-decoration: underline;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 1.5em;
+}
+
+.line{
+  margin-left: 4%;
+  margin-right: 4%;
+  border: #000 1px solid;
+}
+
+.star{
+  /* background-color: gold; */
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: flex-end;
+}

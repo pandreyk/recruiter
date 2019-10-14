@@ -1,0 +1,27 @@
+.auth {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1500px;
+    min-width: 300px;
+    margin: auto;
+}
+
+.auth input[type='text'], input[type='password'], input[type='mail'] {
+    width: 100%;
+}
+
+.authLink{
+    margin-top: 8%;
+    text-decoration: underline;
+    color: blue
+}
+
+.authLink:hover{
+    cursor: pointer;
+}
+
+.authButton {
+    margin-top: 5px;
+}

@@ -1,0 +1,71 @@
+.profileContainer{
+    background-color: #fcfefe;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 3%;
+}
+
+.profileContainer a{
+    text-decoration: none;
+    color: #6e6e6e;
+}
+
+.profileContainer a:hover{
+    text-decoration: underline;
+}
+
+.profileContainer p{
+    padding: 0.2%;
+    margin: 0.2%;
+}
+
+.profileHeader{
+    /* background-color: #fdf479;  */
+    display: flex;
+    color: #CA5F57;
+    font-size: 26pt;
+    margin-bottom: 1%;
+}
+
+.profileVacancy{
+    flex: 1
+}
+
+.profileFIO{
+    /* background-color: #e92f4a; */
+    display: flex;
+    color: #272727;
+    font-size: 20pt;
+}
+
+.profileContent{
+    display: flex;
+    margin-bottom: 1%;
+}
+
+.profileAbout{
+    /* background-color: #f59ad7; */
+    flex: 3;
+    padding: 10px;
+}
+
+.profileInfo{
+    /* background-color: #cf5687; */
+    flex: 2;
+    padding: 10px;
+}
+
+.profileAbout, .profileInfo, .profileRating p{
+    color: #6e6e6e;
+    font-size: 14pt;
+}
+
+.profileRating{
+    display: flex;
+    align-items: flex-start
+}
+
+.starRounded{
+    font-size: 16pt;
+}

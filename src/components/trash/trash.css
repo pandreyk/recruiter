@@ -1,0 +1,7 @@
+.trash{
+    display: flex;
+    align-self: center;
+    font-size: 26pt;
+    color: #6e6e6e;
+    cursor: pointer;
+}

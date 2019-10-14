@@ -1,0 +1,51 @@
+.commentsContainer{
+    color: #2e2e2e;
+    font-size: 12pt;
+}
+
+.commentsContainer textarea{
+    color: #2e2e2e;
+    font-size: 12pt;
+    resize: none;
+    border-radius: 3px;
+}
+
+.commentsContainer label {
+    color: rgb(28, 8, 131)
+}
+
+.commetsSubmit{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+}
+
+.commentsLoginDelete{
+    display: flex;
+    justify-content: space-between;
+}
+
+.commentsValue {
+    background-color: #e6e6e6;
+    width: 98%;
+    word-break: break-all;
+    font-size: 12pt;
+    border-radius: 3px;
+    margin-bottom: 2%;
+    padding: 1%;
+}
+
+.commentDelete{
+    cursor: pointer;
+}
+
+.commentButton{
+    background-color: #e6e6e6;
+    padding: 3px;
+    text-align: center;
+    width: 30%;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+}
