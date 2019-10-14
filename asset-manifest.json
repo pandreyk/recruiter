@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/recruiter/static/css/main.193e1430.chunk.css",
+    "main.js": "/recruiter/static/js/main.814301f2.chunk.js",
+    "main.js.map": "/recruiter/static/js/main.814301f2.chunk.js.map",
+    "runtime-main.js": "/recruiter/static/js/runtime-main.25a21a24.js",
+    "runtime-main.js.map": "/recruiter/static/js/runtime-main.25a21a24.js.map",
+    "static/css/2.5c17b9f1.chunk.css": "/recruiter/static/css/2.5c17b9f1.chunk.css",
+    "static/js/2.c878a715.chunk.js": "/recruiter/static/js/2.c878a715.chunk.js",
+    "static/js/2.c878a715.chunk.js.map": "/recruiter/static/js/2.c878a715.chunk.js.map",
+    "index.html": "/recruiter/index.html",
+    "precache-manifest.fdc2d16d35ad75e569d1c7bed5c9e2a7.js": "/recruiter/precache-manifest.fdc2d16d35ad75e569d1c7bed5c9e2a7.js",
+    "service-worker.js": "/recruiter/service-worker.js",
+    "static/css/2.5c17b9f1.chunk.css.map": "/recruiter/static/css/2.5c17b9f1.chunk.css.map",
+    "static/css/main.193e1430.chunk.css.map": "/recruiter/static/css/main.193e1430.chunk.css.map",
+    "static/media/a.png": "/recruiter/static/media/a.a8e82b42.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.25a21a24.js",
+    "static/css/2.5c17b9f1.chunk.css",
+    "static/js/2.c878a715.chunk.js",
+    "static/css/main.193e1430.chunk.css",
+    "static/js/main.814301f2.chunk.js"
+  ]
+}
