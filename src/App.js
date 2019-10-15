@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import { Router, Link, Route, Switch, Redirect } from 'react-router-dom'
+import { HashRouter as Router, Link, Route, Switch, Redirect } from 'react-router-dom'
 import { createBrowserHistory } from 'history'
 import { Header, ModalContainer, PrivateRoute, Search } from './components'
 import CandidatesContainer from './pages/candidates/candidatesContainer'

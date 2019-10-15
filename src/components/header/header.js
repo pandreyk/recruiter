@@ -3,10 +3,12 @@ import './header.css'
 import logo from './a.png'
 import { connect } from 'react-redux'
 import { actionUser } from '../../store/auth/actions'
-import { history } from '../../App'
+import { Route } from 'react-router-dom'
+//import { history } from '../../App'
+//import { withRouter } from 'react-router-dom'
 
 class Header extends React.Component {
-    logout = () => {
+    logout = (history) => {
         localStorage.setItem('id_user', 'null');
         this.props.actionUser('null')
         history.replace('/login')
@@ -21,11 +23,15 @@ class Header extends React.Component {
                     <a href='https://frosyavo.000webhostapp.com/' target='_blank'>Добавить кандидата</a>
                 </div>
                 <div className='logInOut'>
-                    {
-                        id_user != 'null' ? 
-                        <div onClick={this.logout}>Выход</div> : 
-                        <div onClick={() => history.replace('/signup')}>Вход</div> 
-                    }
+
+                <Route render={ ({ history }) => (
+                    id_user != 'null' ? 
+                    <div onClick={() => this.logout(history) }>
+                        Выход
+                    </div> : 
+                    <label />
+                )} />
+                    
                 </div>
             </header>
         )
