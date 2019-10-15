@@ -4,8 +4,6 @@ import logo from './a.png'
 import { connect } from 'react-redux'
 import { actionUser } from '../../store/auth/actions'
 import { Route } from 'react-router-dom'
-//import { history } from '../../App'
-//import { withRouter } from 'react-router-dom'
 
 class Header extends React.Component {
     logout = (history) => {

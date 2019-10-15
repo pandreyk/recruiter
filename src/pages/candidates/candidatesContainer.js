@@ -76,18 +76,18 @@ class CandidatesContainer extends React.Component {
 
   render() {
     const id_user = localStorage.getItem('id_user')
+    console.log(id_user)
     return (
       <div>
         {
-          id_user == 'null' ? 
+          id_user == 'null' || id_user == null ? 
           <Redirect to='/login' />
           :
           <Candidates 
             match={this.props.match} 
             data={this.props.dataCandidates}
             actionItem={this.props.actionItem}
-          />
-          
+          />          
         }
       </div>
     )
