@@ -21,15 +21,13 @@ class Header extends React.Component {
                     <a href='https://frosyavo.000webhostapp.com/' target='_blank'>Добавить кандидата</a>
                 </div>
                 <div className='logInOut'>
-
-                <Route render={ ({ history }) => (
-                    id_user != 'null' ? 
-                    <div onClick={() => this.logout(history) }>
-                        Выход
-                    </div> : 
-                    <label />
-                )} />
-                    
+                    <Route render={ ({ history }) => (
+                        id_user != 'null' ? 
+                        <div onClick={() => this.logout(history) }>
+                            Выход
+                        </div> : 
+                        <label />
+                    )} />
                 </div>
             </header>
         )

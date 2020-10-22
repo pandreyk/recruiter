@@ -1,9 +1,10 @@
 import * as axios from "axios"
 
 const instance = axios.create({
-    baseURL: 'https://frosyavo.000webhostapp.com/api/',
-    //baseURL: 'http://localhost/malfa/api/',
+    //baseURL: 'https://frosyavo.000webhostapp.com/api/',
+    baseURL: 'http://localhost/malfa/api/',
     //baseURL: 'http://frosyavo.heliohost.org/api/',
+    baseURL: 'https://mantybylak.000webhostapp.com/api/',
     header:{
                 'Accept': 'application/json',
                 'Content-type': 'application/json',
