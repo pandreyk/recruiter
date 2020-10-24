@@ -18,7 +18,7 @@ class Header extends React.Component {
             <header className='header'>
                 <div className='logo'>
                     <img src={logo}></img>
-                    <a href='https://frosyavo.000webhostapp.com/' target='_blank'>Добавить кандидата</a>
+                    <a href='https://mantybylak.000webhostapp.com/' target='_blank'>Добавить кандидата</a>
                 </div>
                 <div className='logInOut'>
                     <Route render={ ({ history }) => (
