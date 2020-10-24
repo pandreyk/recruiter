@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/recruiter/static/css/main.193e1430.chunk.css",
-    "main.js": "/recruiter/static/js/main.c411a8b3.chunk.js",
-    "main.js.map": "/recruiter/static/js/main.c411a8b3.chunk.js.map",
+    "main.js": "/recruiter/static/js/main.69377da1.chunk.js",
+    "main.js.map": "/recruiter/static/js/main.69377da1.chunk.js.map",
     "runtime-main.js": "/recruiter/static/js/runtime-main.25a21a24.js",
     "runtime-main.js.map": "/recruiter/static/js/runtime-main.25a21a24.js.map",
     "static/css/2.5c17b9f1.chunk.css": "/recruiter/static/css/2.5c17b9f1.chunk.css",
     "static/js/2.6d18093d.chunk.js": "/recruiter/static/js/2.6d18093d.chunk.js",
     "static/js/2.6d18093d.chunk.js.map": "/recruiter/static/js/2.6d18093d.chunk.js.map",
     "index.html": "/recruiter/index.html",
-    "precache-manifest.1c4354975520318f8a776910745e3b37.js": "/recruiter/precache-manifest.1c4354975520318f8a776910745e3b37.js",
+    "precache-manifest.c90ca7e08a5fee9bc16ab992f2e3da26.js": "/recruiter/precache-manifest.c90ca7e08a5fee9bc16ab992f2e3da26.js",
     "service-worker.js": "/recruiter/service-worker.js",
     "static/css/2.5c17b9f1.chunk.css.map": "/recruiter/static/css/2.5c17b9f1.chunk.css.map",
     "static/css/main.193e1430.chunk.css.map": "/recruiter/static/css/main.193e1430.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.5c17b9f1.chunk.css",
     "static/js/2.6d18093d.chunk.js",
     "static/css/main.193e1430.chunk.css",
-    "static/js/main.c411a8b3.chunk.js"
+    "static/js/main.69377da1.chunk.js"
   ]
 }
